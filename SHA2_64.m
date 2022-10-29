@@ -195,5 +195,4 @@ HASH = HASH(1 : HASH_len / 4);
 fprintf('The input string is:  %s\n', input_str);
 fprintf('The %s HASH value is: %s\n', HASH_type, HASH);
 %
-%
 

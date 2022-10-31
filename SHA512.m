@@ -170,4 +170,3 @@ fprintf('The SHA-512 HASH value is: %s\n', HASH);
 %
 %
 
-

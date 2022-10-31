@@ -169,6 +169,4 @@ HASH = lower(HASH);
 fprintf('The input string is: %s\n', input_str);
 fprintf('The SHA-512 HASH value is: %s\n', HASH);
 %
-%
-
 

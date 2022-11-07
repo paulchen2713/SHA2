@@ -1,9 +1,9 @@
 %
 % SHA256 main program
 %
-% clear all;
+clear;
 clc;
-
+%
 K256 = ['428a2f98'; '71374491'; 'b5c0fbcf'; 'e9b5dba5'; '3956c25b'; '59f111f1'; '923f82a4'; 'ab1c5ed5';
         'd807aa98'; '12835b01'; '243185be'; '550c7dc3'; '72be5d74'; '80deb1fe'; '9bdc06a7'; 'c19bf174';
         'e49b69c1'; 'efbe4786'; '0fc19dc6'; '240ca1cc'; '2de92c6f'; '4a7484aa'; '5cb0a9dc'; '76f988da';
@@ -136,4 +136,5 @@ HASH = lower(HASH);
 % 
 fprintf('\n Input string: %s\n', input_str);
 fprintf('\n HASH value:   %s\n', HASH);
+%
 

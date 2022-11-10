@@ -1,9 +1,9 @@
 %
 % SHA512
 %
-% clear all;
+clear;
 clc;
-
+%
 KT=[
     '428a2f98d728ae22'; '7137449123ef65cd'; 'b5c0fbcfec4d3b2f'; 'e9b5dba58189dbbc';
     '3956c25bf348b538'; '59f111f1b605d019'; '923f82a4af194f9b'; 'ab1c5ed5da6d8118';
@@ -126,3 +126,5 @@ for i = 2 : 8
 end
 fprintf('\n Input string is: %s\n', input_str);
 fprintf('\n HASH value is:   %s\n', HASH);
+%
+
